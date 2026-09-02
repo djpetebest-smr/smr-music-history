@@ -53,6 +53,15 @@
     },
 
     {
+      "name": "US Vintage Chart Show",
+      "type": "weekly",
+      "day": "wednesday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Louise"
+    },
+
+    {
       "name": "Anything Goes",
       "type": "weekly",
       "day": "wednesday",
