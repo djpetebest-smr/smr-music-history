@@ -83,7 +83,7 @@
       "type": "weekly",
       "day": "sunday",
       "start": "10:00",
-      "end": "",
+      "end": "12:00",
       "dj": "Paul The Mod"
     },
     {
@@ -91,7 +91,7 @@
       "type": "weekly",
       "day": "sunday",
       "start": "12:00",
-      "end": "",
+      "end": "14:00",
       "dj": "DJ Pete Best"
     },
     {
@@ -99,7 +99,7 @@
       "type": "weekly",
       "day": "sunday",
       "start": "14:00",
-      "end": "",
+      "end": "16:00",
       "dj": "Marky Mark"
     },
     {
@@ -107,7 +107,7 @@
       "type": "weekly",
       "day": "sunday",
       "start": "16:00",
-      "end": "",
+      "end": "18:00",
       "dj": "Alison"
     },
     {
