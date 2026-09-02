@@ -1,8 +1,6 @@
 {
   "timezone": "Europe/London",
-
   "shows": [
-
     {
       "name": "The Morning Mix",
       "type": "weekday",
@@ -16,60 +14,6 @@
         "5": "DJ Sparky"
       }
     },
-
-    {
-      "name": "The Night Owl",
-      "type": "daily",
-      "start": "22:00",
-      "end": "23:45",
-      "dj": "DJ Marv"
-    },
-
-    {
-      "name": "The Pick N Mix Show",
-      "type": "weekly",
-      "day": "monday",
-      "start": "18:00",
-      "end": "19:00",
-      "dj": "DJ Marky Mark"
-    },
-
-    {
-      "name": "Alison's Country Sessions",
-      "type": "weekly",
-      "day": "monday",
-      "start": "20:00",
-      "end": "22:00",
-      "dj": "Alison"
-    },
-
-    {
-      "name": "Down The Rabbit Hole",
-      "type": "weekly",
-      "day": "tuesday",
-      "start": "20:00",
-      "end": "22:00",
-      "dj": "DJ Yellams"
-    },
-
-    {
-      "name": "US Vintage Chart Show",
-      "type": "weekly",
-      "day": "wednesday",
-      "start": "18:00",
-      "end": "20:00",
-      "dj": "Louise"
-    },
-
-    {
-      "name": "Anything Goes",
-      "type": "weekly",
-      "day": "wednesday",
-      "start": "20:00",
-      "end": "22:00",
-      "dj": "Dean & Helpful Joe"
-    },
-
     {
       "name": "Thursday Tunz",
       "type": "once",
@@ -78,7 +22,6 @@
       "end": "20:00",
       "dj": "Pete Best"
     },
-
     {
       "name": "SMR 80s Night",
       "type": "weekly",
@@ -87,7 +30,6 @@
       "end": "21:00",
       "dj": "Mark Getz"
     },
-
     {
       "name": "Jonesey's Jam-Boree",
       "type": "weekly",
@@ -96,25 +38,22 @@
       "end": "20:00",
       "dj": "Matt Jones"
     },
-
     {
       "name": "Retro Saturday Radio Show",
       "type": "weekly",
       "day": "saturday",
       "start": "10:00",
-      "end": "13:00",
-      "dj": "DJ Pete Best"
+      "end": "11:00",
+      "dj": "Marky Mark"
     },
-
     {
       "name": "The 80's & 90's Show",
       "type": "weekly",
       "day": "saturday",
       "start": "13:00",
-      "end": "14:00",
+      "end": "",
       "dj": "Pete Downes"
     },
-
     {
       "name": "Tims Audio Library",
       "type": "weekly",
@@ -123,7 +62,6 @@
       "end": "17:00",
       "dj": "Tim"
     },
-
     {
       "name": "Saturday Party Night",
       "type": "weekly",
@@ -132,52 +70,46 @@
       "end": "21:00",
       "dj": "Mark & Alison Carter"
     },
-
     {
       "name": "Rick's Music Vaults",
       "type": "weekly",
       "day": "sunday",
       "start": "08:00",
-      "end": "10:00",
+      "end": "08:30",
       "dj": "DJ Rick Culley"
     },
-
     {
       "name": "Easy Like A Sunday Morning",
       "type": "weekly",
       "day": "sunday",
       "start": "10:00",
-      "end": "121:00",
-      "dj": "DJ Killa"
+      "end": "",
+      "dj": "Paul The Mod"
     },
-
     {
       "name": "Strawberry Soul Club",
       "type": "weekly",
       "day": "sunday",
       "start": "12:00",
-      "end": "14:00",
+      "end": "",
       "dj": "DJ Pete Best"
     },
-
     {
       "name": "60's Sunday",
       "type": "weekly",
       "day": "sunday",
       "start": "14:00",
-      "end": "16:00",
+      "end": "",
       "dj": "Marky Mark"
     },
-
     {
       "name": "Alisons Allsorts",
       "type": "weekly",
       "day": "sunday",
       "start": "16:00",
-      "end": "18:00",
+      "end": "",
       "dj": "Alison"
     },
-
     {
       "name": "Power To The Decades",
       "type": "weekly",
@@ -185,7 +117,61 @@
       "start": "19:00",
       "end": "22:00",
       "dj": "Moofie"
+    },
+    {
+      "name": "The Pick N Mix Show",
+      "type": "weekly",
+      "day": "monday",
+      "start": "18:00",
+      "end": "19:00",
+      "dj": "DJ Marky Mark"
+    },
+    {
+      "name": "Alison's Country Sessions",
+      "type": "weekly",
+      "day": "monday",
+      "start": "20:00",
+      "end": "",
+      "dj": "Alison"
+    },
+    {
+      "name": "Disco For Grown Ups",
+      "type": "weekly",
+      "day": "tuesday",
+      "start": "12:00",
+      "end": "",
+      "dj": "DJ Les D"
+    },
+    {
+      "name": "Down The Rabbit Hole",
+      "type": "weekly",
+      "day": "tuesday",
+      "start": "20:00",
+      "end": "22:00",
+      "dj": "DJ Yellams"
+    },
+    {
+      "name": "American Vintage Chart Show",
+      "type": "weekly",
+      "day": "wednesday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Louise"
+    },
+    {
+      "name": "The Night Owl",
+      "type": "daily",
+      "start": "22:00",
+      "end": "23:45",
+      "dj": "DJ Marv"
+    },
+    {
+      "name": "Anything Goes",
+      "type": "weekly",
+      "day": "wednesday",
+      "start": "20:00",
+      "end": "22:00",
+      "dj": "Dean & Helpful Joe"
     }
-
   ]
 }
