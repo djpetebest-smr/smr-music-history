@@ -51,7 +51,7 @@
       "type": "weekly",
       "day": "saturday",
       "start": "10:00",
-      "end": "14:00",
+      "end": "13:00",
       "dj": "DJ Pete Best"
     },
     {
@@ -83,7 +83,7 @@
       "type": "weekly",
       "day": "sunday",
       "start": "08:00",
-      "end": "10:30",
+      "end": "10:00",
       "dj": "DJ Rick Culley"
     },
     {
