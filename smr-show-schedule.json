@@ -8,9 +8,9 @@
       "end": "12:00",
       "djByDay": {
         "1": "Paul The Mod",
-        "2": "DJ Rick",
-        "3": "DJ Rick",
-        "4": "DJ Rick",
+        "2": "DJ Rick Culley",
+        "3": "DJ Rick Culley",
+        "4": "DJ Rick Culley",
         "5": "Chris Dexter"
       }
     },
@@ -28,7 +28,7 @@
       "date": "2026-09-03",
       "start": "18:00",
       "end": "20:00",
-      "dj": "Pete Best"
+      "dj": "DJ Pete Best"
     },
     {
       "name": "SMR 80s Night",
@@ -52,7 +52,7 @@
       "day": "saturday",
       "start": "10:00",
       "end": "14:00",
-      "dj": "Pete Best"
+      "dj": "DJ Pete Best"
     },
     {
       "name": "The 80's & 90's Show",
