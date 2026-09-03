@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Music Radio - V4 Player</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#090909;color:#fff;font-family:Arial,Helvetica,sans-serif}
+body{min-height:100vh}
+.smr-wrap{width:min(760px,100%);margin:0 auto;padding:18px}
+.header{text-align:center;padding:10px 10px 18px}
+.logo{width:min(270px,75%);height:auto;display:block;margin:0 auto 10px}
+.station-title{font-size:30px;font-weight:800;letter-spacing:2px}
+.tagline{color:#ddd;font-size:14px;margin-top:5px}
+.live{display:inline-flex;align-items:center;gap:7px;margin-top:12px;background:#d71920;padding:7px 13px;border-radius:20px;font-size:12px;font-weight:800;letter-spacing:1px}
+.dot{width:8px;height:8px;background:#fff;border-radius:50%;animation:pulse 1.2s infinite}
+@keyframes pulse{50%{opacity:.35}}
+.card{background:#151515;border:1px solid #2b2b2b;border-radius:18px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.45)}
+.onair{padding:16px 20px;background:linear-gradient(90deg,#111,#1d1d1d);border-bottom:1px solid #2d2d2d}
+.onair-label{color:#e1d700;font-size:12px;font-weight:800;letter-spacing:1.5px}
+.show{font-size:23px;font-weight:800;margin-top:4px}
+.dj{color:#ccc;margin-top:3px}
+.time{color:#999;font-size:12px;margin-top:7px}
+.player-shell{padding:14px;background:#0d0d0d}
+.player-frame{background:#111;border:1px solid #292929;border-radius:14px;padding:8px;overflow:hidden}
+#sc-player{width:100%!important;max-width:100%!important;margin:0 auto}
+[is="player"]{max-width:100%!important}
+.links{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;padding:14px 12px 17px;background:#111;border-top:1px solid #262626}
+.links a{color:#111;background:#e1d700;text-decoration:none;font-weight:800;font-size:12px;padding:9px 14px;border-radius:18px}
+.links a:hover{filter:brightness(1.08)}
+.ticker{margin-top:14px;border:1px solid #292929;border-radius:12px;background:#111;overflow:hidden;white-space:nowrap}
+.ticker-inner{display:inline-block;padding:11px 0 11px 100%;animation:scroll 24s linear infinite;font-size:12px;color:#ddd}
+.ticker:hover .ticker-inner{animation-play-state:paused}
+@keyframes scroll{to{transform:translateX(-100%)}}
+.footer{text-align:center;color:#777;font-size:11px;padding:14px}
+@media(max-width:520px){
+ .smr-wrap{padding:10px}
+ .station-title{font-size:22px}
+ .show{font-size:19px}
+ .onair{padding:14px}
+}
+</style>
+</head>
+<body>
+<div class="smr-wrap">
+
+<header class="header">
+  <img class="logo" src="smr-logo.png" alt="Social Music Radio">
+  <div class="station-title">SOCIAL MUSIC RADIO</div>
+  <div class="tagline">Your music • Your memories</div>
+  <div class="live"><span class="dot"></span> LIVE NOW</div>
+</header>
+
+<section class="card">
+  <div class="onair">
+    <div class="onair-label">ON AIR NOW</div>
+    <div class="show" id="showName">Loading show...</div>
+    <div class="dj" id="djName">Loading DJ...</div>
+    <div class="time" id="showTime"></div>
+  </div>
+
+  <div class="player-shell">
+    <div class="player-frame">
+      <div id="sc-player">
+        <div
+          is="player"
+          lang="en"
+          api-url="https://eu11.fastcast4u.com:1450/api/v2"
+          server-id="1"
+          station-name="Social Music Radio"
+          station-url="https://www.socialmusicradio.uk"
+          imagecontainer="left"
+          imagecontainer-bg="#000000"
+          imagecontainer-bg-opacity="1"
+          controlscontainer="right"
+          controlscontainer-bg="#e1d700"
+          controlscontainer-bg-opacity="1"
+          controlscontainer-bg-img="https://eu11.fastcast4u.com:1450/media/widgets/10605.jpg"
+          historycontainer="right"
+          historycontainer-bg="#151515"
+          historycontainer-bg-opacity="1"
+          :show-history="true"
+          history-limit="1"
+          sharecontainer="both"
+          sharecontainer-bg="#111111"
+          sharecontainer-bg-opacity="1"
+          :show-share="false"
+          share-url=""
+          :share="['facebook','telegram','twitter']"
+          :show-dj="true"
+          default-dj-img="https://eu11.fastcast4u.com:1450/media/widgets/ChatGPT_Image_Jun_15_2026_04_05_36_PM_d73LSZO.png"
+          :show-image="true"
+          default-cover-image=""
+          play-button-color="#111111"
+          play-button-bg="#e1d700"
+          visualizer-outline-color="#e1d700"
+          visualizer-bar-width="3"
+          :channels-displayed="[]"
+          channels-switch-bg="#4165b9"
+          channels-switch-color="#ffffff"
+          channels-switch-bg-active="#dddddd"
+          channels-switch-color-active="#000000"
+          :show-vote="false"
+          vote-buttons-color="#35495e"
+          vote-buttons-opacity="1"
+          vote-results-font-color="#FFFFFF"
+          vote-results-font-size="16"
+          :progress-show="false"
+          progress-bar-color="#e1d700"
+          progress-bar-bg-color="#41b883"
+          progress-bar-bg-opacity="0.1"
+          progress-bar-bg-height="25"
+          progress-bar-opacity="1"
+          progress-font-color="#FFFFFF"
+          progress-font-size="12"
+          progress-bar-bg-radius="10"
+          progress-bar-bg-border="#333333"
+          player-width="100%"
+        ></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="links">
+    <a href="https://www.socialmusicradio.uk/" target="_blank">SMR WEBSITE</a>
+    <a href="https://www.facebook.com/" target="_blank">FACEBOOK</a>
+  </div>
+</section>
+
+<div class="ticker">
+  <div class="ticker-inner">🎵 SOCIAL MUSIC RADIO • LISTEN LIVE • 50s • 60s • 70s • 80s • 90s • AND BEYOND • 🎵</div>
+</div>
+
+<div class="footer">Social Music Radio • Your music • Your memories</div>
+</div>
+
+<script src="https://eu11.fastcast4u.com:1450/media/static/js/sc_player/sc_player.js"></script>
+
+<script>
+const SCHEDULE_URL="https://raw.githubusercontent.com/djpetebest-smr/smr-music-history/refs/heads/main/smr-show-schedule.json";
+
+function mins(t){
+  if(!t)return null;
+  const p=t.split(":").map(Number);
+  return p[0]*60+p[1];
+}
+function nowParts(){
+  const d=new Date();
+  return {
+    day:d.getDay(),
+    mins:d.getHours()*60+d.getMinutes(),
+    date:d.toISOString().slice(0,10)
+  };
+}
+function arrayFrom(data){
+  if(Array.isArray(data))return data;
+  if(data && Array.isArray(data.shows))return data.shows;
+  if(data && Array.isArray(data.schedule))return data.schedule;
+  return [];
+}
+function currentShow(shows){
+  const n=nowParts();
+  let found=null;
+  for(const s of shows){
+    if(!s || !s.start)continue;
+    const days=s.days||s.day||[];
+    let active=false;
+    if(Array.isArray(days)) active=days.map(String).some(x=>x===String(n.day)||x.toLowerCase()===["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][n.day]);
+    else if(typeof days==="string") active=days.toLowerCase().includes(["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][n.day]);
+    if(!active && s.date) active=(s.date===n.date);
+    if(!active)continue;
+    const st=mins(s.start);
+    let en=mins(s.end);
+    if(en===null)en=24*60;
+    if(en<=st && n.mins<st) { if(n.mins+1440<en) continue; }
+    const inside=(en>st)?(n.mins>=st&&n.mins<en):(n.mins>=st||n.mins<en);
+    if(inside) found=s;
+  }
+  return found;
+}
+async function updateSchedule(){
+  try{
+    const r=await fetch(SCHEDULE_URL+"?v="+Date.now());
+    const data=await r.json();
+    const s=currentShow(arrayFrom(data));
+    document.getElementById("showName").textContent=s?.show||s?.name||"Social Music Radio";
+    document.getElementById("djName").textContent=s?.dj?("with "+s.dj):"Live on Social Music Radio";
+    document.getElementById("showTime").textContent=(s?.start&&s?.end)?(s.start+" - "+s.end):"";
+  }catch(e){
+    document.getElementById("showName").textContent="Social Music Radio";
+    document.getElementById("djName").textContent="Live";
+  }
+}
+updateSchedule();
+setInterval(updateSchedule,60000);
+</script>
+</body>
+</html>
