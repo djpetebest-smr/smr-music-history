@@ -14,6 +14,14 @@
         "5": "Chris Dexter"
       }
     },
+
+    {
+      "name": "SMR Music Mix",
+      "type": "weekday",
+      "start": "12:00",
+      "end": "18:00",
+      "dj": "Marv"
+    },
     {
       "name": "Thursday Tunz",
       "type": "once",
