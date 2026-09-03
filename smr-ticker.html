@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR Shows Today Ticker</title>
+<style>
+html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:transparent;font-family:Arial,Helvetica,sans-serif}
+.ticker{width:100%;height:46px;background:#111;border:2px solid #e1d700;border-radius:8px;box-sizing:border-box;display:flex;align-items:center;overflow:hidden}
+.label{flex-shrink:0;height:100%;display:flex;align-items:center;padding:0 15px;background:#e1d700;color:#000;font-size:15px;font-weight:bold;z-index:2}
+.window{flex:1;overflow:hidden;white-space:nowrap;height:100%;display:flex;align-items:center}
+.track{display:inline-block;white-space:nowrap;will-change:transform}
+.item{display:inline-block;color:#fff;font-size:16px;margin-right:60px}
+.time{color:#e1d700;font-weight:bold}.dot{color:#e1d700;padding:0 12px}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.scrolling{animation:scroll 55s linear infinite}
+@media(max-width:600px){.label{padding:0 9px;font-size:11px}.item{font-size:13px;margin-right:35px}}
+</style>
+</head>
+<body>
+<div class="ticker">
+<div class="label">🎙️ SMR SHOWS TODAY</div>
+<div class="window"><div id="track" class="track">Loading today's shows...</div></div>
+</div>
+<script>
+const scheduleURL="https://raw.githubusercontent.com/djpetebest-smr/smr-music-history/refs/heads/main/smr-show-schedule.json";
+const dayNumbers={sunday:0,monday:1,tuesday:2,wednesday:3,thursday:4,friday:5,saturday:6};
+function getUKParts(){
+const parts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/London",year:"numeric",month:"2-digit",day:"2-digit",weekday:"long"}).formatToParts(new Date());
+const r={};parts.forEach(p=>{if(p.type!=="literal")r[p.type]=p.value});return r;
+}
+function getTodayShows(data){
+const uk=getUKParts(),weekday=uk.weekday.toLowerCase(),today=dayNumbers[weekday],shows=[];
+(data.shows||[]).forEach(show=>{
+let include=false;
+if(show.type==="daily")include=true;
+if(show.type==="weekday"&&today>=1&&today<=5)include=true;
+if(show.type==="weekly"&&show.day===weekday)include=true;
+if(show.type==="once"&&show.date===uk.year+"-"+uk.month+"-"+uk.day)include=true;
+if(include){
+let dj=show.dj||"";
+if(show.djByDay)dj=show.djByDay[String(today)]||"";
+shows.push({name:show.name,start:show.start,end:show.end,dj:dj});
+}});
+shows.sort((a,b)=>a.start.localeCompare(b.start));
+return shows;
+}
+function displayShows(shows){
+const track=document.getElementById("track");
+if(!shows.length){track.classList.remove("scrolling");track.innerHTML='<span class="item">No scheduled shows today</span>';return;}
+const text=shows.map(show=>{
+let time=show.start;if(show.end)time+=" – "+show.end;
+const djText=show.dj?" with "+show.dj:"";
+return '<span class="item"><span class="time">'+time+'</span> • '+show.name+djText+' <span class="dot">◆</span></span>';
+}).join("");
+track.classList.remove("scrolling");track.innerHTML=text+text;
+requestAnimationFrame(()=>track.classList.add("scrolling"));
+}
+async function loadSchedule(){
+try{
+const response=await fetch(scheduleURL+"?v="+Date.now(),{cache:"no-store"});
+if(!response.ok)throw new Error("Schedule unavailable");
+displayShows(getTodayShows(await response.json()));
+}catch(e){
+const track=document.getElementById("track");track.classList.remove("scrolling");
+track.innerHTML='<span class="item">SMR schedule temporarily unavailable</span>';
+}}
+loadSchedule();setInterval(loadSchedule,60000);
+</script>
+</body>
+</html>
