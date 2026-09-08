@@ -1,0 +1,37 @@
+name: Generate SMR RSS Feed
+
+on:
+  push:
+    paths:
+      - "smr-show-schedule.json"
+      - "generate-rss.js"
+
+  schedule:
+    - cron: "0 * * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-rss:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate RSS feed
+        run: node generate-rss.js
+
+      - name: Commit RSS feed
+        run: |
+          git config user.name "SMR RSS Bot"
+          git config user.email "actions@github.com"
+
+          git add smr-show-schedule.xml
+
+          git diff --cached --quiet || git commit -m "Update SMR RSS feed"
+
+          git push
