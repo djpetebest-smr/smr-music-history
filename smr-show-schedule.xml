@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>The Night Owl with DJ Marv</title>
-      <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
-      <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Night-Owl-2026-09-09T22-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Morning Mix with DJ Rick Culley</title>
       <description>The Morning Mix with DJ Rick Culley from 09:00 to 12:00.</description>
       <pubDate>Thu, 10 Sep 2026 09:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Thu, 17 Sep 2026 22:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Night-Owl-2026-09-17T22-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Morning Mix with Chris Dexter</title>
+      <description>The Morning Mix with Chris Dexter from 09:00 to 12:00.</description>
+      <pubDate>Fri, 18 Sep 2026 09:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Morning-Mix-2026-09-18T09-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
