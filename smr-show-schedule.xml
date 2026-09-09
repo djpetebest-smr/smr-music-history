@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Anything Goes with Dean &amp; Helpful Joe</title>
-      <description>Anything Goes with Dean &amp; Helpful Joe from 20:00 to 22:00.</description>
-      <pubDate>Wed, 09 Sep 2026 20:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Anything-Goes-2026-09-09T20-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Night Owl with DJ Marv</title>
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Wed, 09 Sep 2026 22:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>SMR 80s Night with Mark Getz from 20:00 to 22:00.</description>
       <pubDate>Thu, 17 Sep 2026 20:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-SMR-80s-Night-2026-09-17T20-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Night Owl with DJ Marv</title>
+      <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
+      <pubDate>Thu, 17 Sep 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Night-Owl-2026-09-17T22-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
