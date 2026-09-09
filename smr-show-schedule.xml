@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>SMR Music Mix with Marv</title>
-      <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
-      <pubDate>Wed, 09 Sep 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-09-09T12-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>American Vintage Chart Show with Louise</title>
       <description>American Vintage Chart Show with Louise from 18:00 to 20:00.</description>
       <pubDate>Wed, 09 Sep 2026 18:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The Morning Mix with DJ Rick Culley from 09:00 to 12:00.</description>
       <pubDate>Thu, 17 Sep 2026 09:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Morning-Mix-2026-09-17T09-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>SMR Music Mix with Marv</title>
+      <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
+      <pubDate>Thu, 17 Sep 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-09-17T12-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
