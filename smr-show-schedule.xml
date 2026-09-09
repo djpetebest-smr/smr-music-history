@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>American Vintage Chart Show with Louise</title>
-      <description>American Vintage Chart Show with Louise from 18:00 to 20:00.</description>
-      <pubDate>Wed, 09 Sep 2026 18:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-American-Vintage-Chart-Show-2026-09-09T18-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Anything Goes with Dean &amp; Helpful Joe</title>
       <description>Anything Goes with Dean &amp; Helpful Joe from 20:00 to 22:00.</description>
       <pubDate>Wed, 09 Sep 2026 20:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
       <pubDate>Thu, 17 Sep 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-SMR-Music-Mix-2026-09-17T12-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>SMR 80s Night with Mark Getz</title>
+      <description>SMR 80s Night with Mark Getz from 20:00 to 22:00.</description>
+      <pubDate>Thu, 17 Sep 2026 20:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-SMR-80s-Night-2026-09-17T20-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
