@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>SMR Music Mix with Marv</title>
-      <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
-      <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-09-10T12-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Thursday Tunz with DJ Pete Best</title>
       <description>Thursday Tunz with DJ Pete Best from 18:00 to 20:00.</description>
       <pubDate>Thu, 10 Sep 2026 18:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
       <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-SMR-Music-Mix-2026-09-18T12-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Friday Rock Tunes with DJ Marv</title>
+      <description>Friday Rock Tunes with DJ Marv from 17:00 to 22:00.</description>
+      <pubDate>Fri, 18 Sep 2026 17:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Friday-Rock-Tunes-2026-09-18T17-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
