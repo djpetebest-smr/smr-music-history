@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>The Night Owl with DJ Marv</title>
-      <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
-      <pubDate>Thu, 10 Sep 2026 22:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Night-Owl-2026-09-10T22-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Morning Mix with Chris Dexter</title>
       <description>The Morning Mix with Chris Dexter from 09:00 to 12:00.</description>
       <pubDate>Fri, 11 Sep 2026 09:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>Retro Saturday Radio Show with DJ Pete Best from 10:00 to 13:00.</description>
       <pubDate>Sat, 19 Sep 2026 10:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Retro-Saturday-Radio-Show-2026-09-19T10-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The 80&apos;s &amp; 90&apos;s Show with Pete Downes</title>
+      <description>The 80&apos;s &amp; 90&apos;s Show with Pete Downes from 13:00 to 15:00.</description>
+      <pubDate>Sat, 19 Sep 2026 13:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-80-s---90-s-Show-2026-09-19T13-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
