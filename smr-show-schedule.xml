@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>The Morning Mix with DJ Rick Culley</title>
-      <description>The Morning Mix with DJ Rick Culley from 09:00 to 12:00.</description>
-      <pubDate>Thu, 10 Sep 2026 09:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Morning-Mix-2026-09-10T09-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>SMR Music Mix with Marv</title>
       <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
       <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The Morning Mix with Chris Dexter from 09:00 to 12:00.</description>
       <pubDate>Fri, 18 Sep 2026 09:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Morning-Mix-2026-09-18T09-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>SMR Music Mix with Marv</title>
+      <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
+      <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-09-18T12-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
