@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>The Morning Mix with Chris Dexter</title>
-      <description>The Morning Mix with Chris Dexter from 09:00 to 12:00.</description>
-      <pubDate>Fri, 11 Sep 2026 09:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Morning-Mix-2026-09-11T09-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>SMR Music Mix with Marv</title>
       <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
       <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The 80&apos;s &amp; 90&apos;s Show with Pete Downes from 13:00 to 15:00.</description>
       <pubDate>Sat, 19 Sep 2026 13:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-80-s---90-s-Show-2026-09-19T13-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Tims Audio Library with Tim</title>
+      <description>Tims Audio Library with Tim from 15:00 to 17:00.</description>
+      <pubDate>Sat, 19 Sep 2026 15:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Tims-Audio-Library-2026-09-19T15-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
