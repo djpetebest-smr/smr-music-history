@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Saturday Party Night with Mark &amp; Alison Carter</title>
-      <description>Saturday Party Night with Mark &amp; Alison Carter from 19:00 to 21:00.</description>
-      <pubDate>Sat, 12 Sep 2026 19:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Saturday-Party-Night-2026-09-12T19-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Night Owl with DJ Marv</title>
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Sat, 12 Sep 2026 22:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>Strawberry Soul Club with DJ Pete Best from 12:00 to 14:00.</description>
       <pubDate>Sun, 20 Sep 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Strawberry-Soul-Club-2026-09-20T12-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>60&apos;s Sunday with Marky Mark</title>
+      <description>60&apos;s Sunday with Marky Mark from 14:00 to 16:00.</description>
+      <pubDate>Sun, 20 Sep 2026 14:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-60-s-Sunday-2026-09-20T14-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
