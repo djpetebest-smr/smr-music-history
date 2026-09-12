@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Retro Saturday Radio Show with DJ Pete Best</title>
-      <description>Retro Saturday Radio Show with DJ Pete Best from 10:00 to 13:00.</description>
-      <pubDate>Sat, 12 Sep 2026 10:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Retro-Saturday-Radio-Show-2026-09-12T10-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The 80&apos;s &amp; 90&apos;s Show with Pete Downes</title>
       <description>The 80&apos;s &amp; 90&apos;s Show with Pete Downes from 13:00 to 15:00.</description>
       <pubDate>Sat, 12 Sep 2026 13:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Sat, 19 Sep 2026 22:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Night-Owl-2026-09-19T22-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Rick&apos;s Music Vaults with DJ Rick Culley</title>
+      <description>Rick&apos;s Music Vaults with DJ Rick Culley from 08:00 to 10:00.</description>
+      <pubDate>Sun, 20 Sep 2026 08:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Rick-s-Music-Vaults-2026-09-20T08-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
