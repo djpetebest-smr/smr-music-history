@@ -23,12 +23,12 @@
       "dj": "Marv"
     },
     {
-      "name": "Thursday Tunz",
-      "type": "once",
-      "date": "2026-09-10",
+      "name": "Thirsty Thursday ",
+      "type": "weekly",
+      "day": "thursday",
       "start": "18:00",
       "end": "20:00",
-      "dj": "DJ Pete Best"
+      "dj": "Missy Chrissy"
     },
     {
       "name": "SMR 80s Night",
@@ -92,7 +92,7 @@
       "day": "sunday",
       "start": "10:00",
       "end": "12:00",
-      "dj": "Paul The Mod"
+      "dj": "DJ Killa"
     },
     {
       "name": "Strawberry Soul Club",
