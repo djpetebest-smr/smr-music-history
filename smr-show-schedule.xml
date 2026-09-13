@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Strawberry Soul Club with DJ Pete Best</title>
-      <description>Strawberry Soul Club with DJ Pete Best from 12:00 to 14:00.</description>
-      <pubDate>Sun, 13 Sep 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Strawberry-Soul-Club-2026-09-13T12-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>60&apos;s Sunday with Marky Mark</title>
       <description>60&apos;s Sunday with Marky Mark from 14:00 to 16:00.</description>
       <pubDate>Sun, 13 Sep 2026 14:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Night-Owl-2026-09-20T22-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Morning Mix with Paul The Mod</title>
+      <description>The Morning Mix with Paul The Mod from 09:00 to 12:00.</description>
+      <pubDate>Mon, 21 Sep 2026 09:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Morning-Mix-2026-09-21T09-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
