@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Alisons Allsorts with Alison</title>
-      <description>Alisons Allsorts with Alison from 16:00 to 18:00.</description>
-      <pubDate>Sun, 13 Sep 2026 16:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Alisons-Allsorts-2026-09-13T16-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Vapour Cockney Music with Vapour with Co Host Chris James of RNI</title>
       <description>Vapour Cockney Music with Vapour with Co Host Chris James of RNI from 19:00 to 22:00.</description>
       <pubDate>Sun, 13 Sep 2026 19:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
       <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-SMR-Music-Mix-2026-09-21T12-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Pick N Mix Show with DJ Marky Mark</title>
+      <description>The Pick N Mix Show with DJ Marky Mark from 18:00 to 20:00.</description>
+      <pubDate>Mon, 21 Sep 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Pick-N-Mix-Show-2026-09-21T18-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
