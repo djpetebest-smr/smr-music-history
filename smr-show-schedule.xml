@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Easy Like A Sunday Morning with DJ Killa</title>
-      <description>Easy Like A Sunday Morning with DJ Killa from 10:00 to 12:00.</description>
-      <pubDate>Sun, 13 Sep 2026 10:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Easy-Like-A-Sunday-Morning-2026-09-13T10-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Strawberry Soul Club with DJ Pete Best</title>
       <description>Strawberry Soul Club with DJ Pete Best from 12:00 to 14:00.</description>
       <pubDate>Sun, 13 Sep 2026 12:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>Vapour Cockney Music with Vapour with Co Host Chris James of RNI from 19:00 to 22:00.</description>
       <pubDate>Sun, 20 Sep 2026 19:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Vapour-Cockney-Music-2026-09-20T19-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Night Owl with DJ Marv</title>
+      <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
+      <pubDate>Sun, 20 Sep 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Night-Owl-2026-09-20T22-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
