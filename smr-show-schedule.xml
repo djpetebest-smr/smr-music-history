@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Rick&apos;s Music Vaults with DJ Rick Culley</title>
-      <description>Rick&apos;s Music Vaults with DJ Rick Culley from 08:00 to 10:00.</description>
-      <pubDate>Sun, 13 Sep 2026 08:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Rick-s-Music-Vaults-2026-09-13T08-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Easy Like A Sunday Morning with DJ Killa</title>
       <description>Easy Like A Sunday Morning with DJ Killa from 10:00 to 12:00.</description>
       <pubDate>Sun, 13 Sep 2026 10:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>Alisons Allsorts with Alison from 16:00 to 18:00.</description>
       <pubDate>Sun, 20 Sep 2026 16:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Alisons-Allsorts-2026-09-20T16-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Vapour Cockney Music with Vapour with Co Host Chris James of RNI</title>
+      <description>Vapour Cockney Music with Vapour with Co Host Chris James of RNI from 19:00 to 22:00.</description>
+      <pubDate>Sun, 20 Sep 2026 19:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Vapour-Cockney-Music-2026-09-20T19-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
