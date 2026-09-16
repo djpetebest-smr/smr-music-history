@@ -23,6 +23,14 @@
       "dj": "Marv"
     },
     {
+      "name": "The Breakfast Club",
+      "type": "weekday",
+      "start": "08:00",
+      "end": "10:00",
+      "dj": "DJ Loyd - The Wizard Of Oz"
+    },
+    
+    {
       "name": "Thirsty Thursday ",
       "type": "weekly",
       "day": "thursday",
@@ -47,6 +55,14 @@
       "dj": "DJ Marv"
     },
     {
+      "name": "The Breakfast Club",
+      "type": "weekly",
+      "day": "saturday",
+      "start": "08:00",
+      "end": "10:00",
+      "dj": "DJ Loyd - The Wizard OF Oz"
+    },
+    {
       "name": "Retro Saturday Radio Show",
       "type": "weekly",
       "day": "saturday",
@@ -54,6 +70,7 @@
       "end": "13:00",
       "dj": "DJ Pete Best"
     },
+     
     {
       "name": "The 80's & 90's Show",
       "type": "weekly",
