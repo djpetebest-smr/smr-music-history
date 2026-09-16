@@ -1,6 +1,13 @@
 {
   "timezone": "Europe/London",
   "shows": [
+   {
+      "name": "The Breakfast Club",
+      "type": "weekday",
+      "start": "08:00",
+      "end": "10:00",
+      "dj": "DJ Loyd - The Wizard Of Oz"
+    },
     {
       "name": "The Morning Mix",
       "type": "weekday",
