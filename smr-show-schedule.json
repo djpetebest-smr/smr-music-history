@@ -4,7 +4,7 @@
     {
       "name": "The Morning Mix",
       "type": "weekday",
-      "start": "09:00",
+      "start": "10:00",
       "end": "12:00",
       "djByDay": {
         "1": "Paul The Mod",
