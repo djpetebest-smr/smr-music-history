@@ -47,12 +47,20 @@
       "dj": "Mark Getz"
     },
     {
-      "name": "Friday Rock Tunes",
+      "name": "Jonesey's Jam-Boree",
       "type": "weekly",
       "day": "friday",
-      "start": "17:00",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Matt Jones"
+    },
+    {
+      "name": "The Insanitarium",
+      "type": "weekly",
+      "day": "friday",
+      "start": "20:00",
       "end": "22:00",
-      "dj": "DJ Marv"
+      "dj": "Jason X"
     },
     {
       "name": "The Breakfast Club",
