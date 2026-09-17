@@ -61,7 +61,7 @@ button:hover,button:focus{background:var(--gold);color:#000}
 .time-label{height:60px;border-bottom:1px solid #282828;padding:4px 3px;text-align:center;color:#999;font-size:11px}
 .day-col{border-right:1px solid var(--line);background:repeating-linear-gradient(to bottom,#151515 0,#151515 59px,#292929 60px)}
 .day-col:last-child{border-right:0}
-.day-grid{height:1440px;position:relative}
+.day-grid{height:1020px;position:relative}
 .show{
   position:absolute;left:3px;right:3px;min-height:38px;
   border:1px solid var(--gold);border-left:5px solid var(--gold);
@@ -102,7 +102,7 @@ td{color:#eee}
     <img class="logo" src="https://raw.githubusercontent.com/djpetebest-smr/smr-music-history/refs/heads/main/smr-logo.png" alt="Social Music Radio logo">
     <div class="brand">
       <h1>Social Music Radio</h1>
-      <p>Weekly Show Schedule • Where The Music Comes First</p>
+      <p>Weekly Show Schedule • Where The Music Comes First • Calendar display: 07:00–00:00</p>
     </div>
     <div class="live-box" aria-live="polite">
       <div class="live-label">ON AIR NOW</div>
@@ -187,7 +187,7 @@ function render(){
     cal.appendChild(h);
   }
   const tc=document.createElement("div");tc.className="time-col";
-  for(let h=0;h<24;h++){const x=document.createElement("div");x.className="time-label";x.textContent=pad(h)+":00";tc.appendChild(x)}
+for(let h=7;h<24;h++){const x=document.createElement("div");x.className="time-label";x.textContent=pad(h)+":00";tc.appendChild(x)}
   cal.appendChild(tc);
 
   for(let i=0;i<7;i++){
@@ -195,25 +195,17 @@ function render(){
     const grid=document.createElement("div");grid.className="day-grid";
     schedule.shows.filter(s=>occurs(s,d)).forEach(s=>{
       const card=document.createElement("div");card.className="show "+(s.type||"weekly");
-      const st=mins(s.start),en=mins(s.end);let duration=(st!=null&&en!=null)?(en<=st?en+1440:en)-st:60;
-      duration=Math.max(40,Math.min(900,duration));
-      card.style.top=(st==null?0:st)+"px";card.style.height=duration+"px";
+      const st=mins(s.start),en=mins(s.end);
+      let duration=(st!=null&&en!=null)?(en<=st?1440:en)-st:60;
+      // The calendar display runs from 07:00 to midnight, so clip overnight shows at 00:00.
+      if(st!=null && en!=null && en<=st) duration=1440-st;
+      duration=Math.max(40,Math.min(1020,duration));
+      card.style.top=(st==null?0:Math.max(0,st-420))+"px";card.style.height=duration+"px";
       if(en!=null&&st!=null&&en<=st)card.classList.add("overnight");
       const dj=djFor(s,d);
       card.innerHTML=`<div class="show-time">${escapeHtml(s.start||"")} – ${escapeHtml(s.end||"")}</div><div class="show-name">${escapeHtml(s.name)}</div>${dj?`<div class="show-dj">🎙️ ${escapeHtml(dj)}</div>`:""}`;
       grid.appendChild(card);
 
-      if(en!=null&&st!=null&&en<=st&&i<6){
-        const next=addDays(d,1);
-        const cont=document.createElement("div");cont.className="show "+(s.type||"weekly")+" overnight";
-        cont.style.top="0px";cont.style.height=Math.max(40,en)+"px";
-        cont.innerHTML=`<div class="show-time">00:00 – ${escapeHtml(s.end)}</div><div class="show-name">${escapeHtml(s.name)}</div>${dj?`<div class="show-dj">🎙️ ${escapeHtml(dj)}</div>`:""}`;
-        // appended to next day after its column exists
-        setTimeout(()=>{
-          const cols=[...cal.querySelectorAll(".day-col")];
-          const target=cols[i+1];if(target)target.querySelector(".day-grid").appendChild(cont);
-        },0);
-      }
     });
     col.appendChild(grid);cal.appendChild(col);
   }
