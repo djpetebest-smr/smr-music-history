@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Social Music Radio — Weekly Schedule</title>
+<style>
+:root{
+  --gold:#e1d700;
+  --gold2:#f4e66a;
+  --black:#090909;
+  --panel:#151515;
+  --panel2:#202020;
+  --line:#363636;
+  --white:#fff;
+  --muted:#bdbdbd;
+  --live:#20d46b;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#090909;color:var(--white);font-family:Arial,Helvetica,sans-serif}
+body{padding:18px}
+.page{max-width:1500px;margin:auto}
+.header{
+  display:flex;align-items:center;gap:18px;
+  padding:16px 20px;margin-bottom:14px;
+  background:linear-gradient(135deg,#0c0c0c,#1c1c1c);
+  border:2px solid var(--gold);border-radius:14px;
+}
+.logo{width:82px;height:82px;object-fit:contain;border-radius:50%;flex:0 0 auto}
+.brand h1{margin:0;color:var(--gold);font-size:28px;line-height:1.1}
+.brand p{margin:7px 0 0;color:var(--muted);font-size:14px}
+.live-box{
+  margin-left:auto;min-width:250px;background:#111;border:1px solid #444;
+  border-radius:10px;padding:10px 13px
+}
+.live-label{font-size:11px;color:var(--muted);font-weight:bold;letter-spacing:.8px}
+.live-show{font-size:17px;font-weight:bold;color:var(--white);margin-top:3px}
+.live-show .live-dot{display:inline-block;width:9px;height:9px;background:var(--live);border-radius:50%;margin-right:6px;box-shadow:0 0 8px #20d46b}
+.live-dj{font-size:12px;color:var(--gold2);margin-top:3px}
+.controls{
+  display:flex;justify-content:space-between;align-items:center;gap:10px;
+  flex-wrap:wrap;margin:0 0 12px
+}
+.controls-left,.controls-right{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+button{
+  min-height:40px;padding:9px 13px;border:1px solid var(--gold);
+  border-radius:8px;background:#161616;color:#fff;font-weight:bold;cursor:pointer
+}
+button:hover,button:focus{background:var(--gold);color:#000}
+#weekLabel{font-weight:bold;color:var(--gold);font-size:17px;margin:0 4px}
+.status{font-size:12px;color:var(--muted)}
+.calendar-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#101010}
+.calendar{min-width:1100px;display:grid;grid-template-columns:62px repeat(7,minmax(148px,1fr))}
+.day-head{
+  background:#181818;border-bottom:2px solid var(--gold);
+  padding:9px 5px;text-align:center;font-weight:bold;position:sticky;top:0;z-index:5
+}
+.day-head.today{background:#302d00}
+.day-name{font-size:13px}.day-number{font-size:22px;color:var(--gold);margin-top:2px}
+.time-col{background:#121212;border-right:1px solid var(--line)}
+.time-label{height:60px;border-bottom:1px solid #282828;padding:4px 3px;text-align:center;color:#999;font-size:11px}
+.day-col{border-right:1px solid var(--line);background:repeating-linear-gradient(to bottom,#151515 0,#151515 59px,#292929 60px)}
+.day-col:last-child{border-right:0}
+.day-grid{height:1440px;position:relative}
+.show{
+  position:absolute;left:3px;right:3px;min-height:38px;
+  border:1px solid var(--gold);border-left:5px solid var(--gold);
+  border-radius:7px;background:#242424;padding:6px;overflow:hidden;z-index:2
+}
+.show:hover{background:#303030}
+.show-time{font-size:11px;color:var(--gold);font-weight:bold}
+.show-name{font-size:12px;font-weight:bold;line-height:1.2;margin-top:3px}
+.show-dj{font-size:10px;color:#ddd;line-height:1.2;margin-top:3px}
+.show.weekday{border-left-color:#a99cff}
+.show.daily{border-left-color:#75d9ff}
+.show.once{border-left-color:#fff}
+.show.overnight{background:#24211a}
+.legend{display:flex;gap:15px;flex-wrap:wrap;padding:11px 2px;color:var(--muted);font-size:11px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.l-weekly{background:var(--gold)}.l-weekday{background:#a99cff}.l-daily{background:#75d9ff}.l-once{background:#fff}
+.section{margin-top:16px;background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.section h2{margin:0;padding:13px 16px;color:var(--gold);font-size:19px}
+.table-wrap{overflow:auto}
+table{width:100%;border-collapse:collapse;min-width:900px}
+th,td{padding:9px 10px;border-top:1px solid var(--line);text-align:left;font-size:12px}
+th{background:#101010;color:var(--gold);position:sticky;top:0}
+td{color:#eee}
+.badge{display:inline-block;padding:3px 7px;border-radius:10px;background:#292929;color:#ddd;font-size:10px}
+.error{padding:22px;color:#fff;background:#341515;border:1px solid #a44;border-radius:10px}
+@media(max-width:760px){
+  body{padding:9px}
+  .header{align-items:flex-start}
+  .logo{width:62px;height:62px}
+  .brand h1{font-size:20px}
+  .live-box{width:100%;margin-left:0}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="header">
+    <img class="logo" src="https://raw.githubusercontent.com/djpetebest-smr/smr-music-history/refs/heads/main/smr-logo.png" alt="Social Music Radio logo">
+    <div class="brand">
+      <h1>Social Music Radio</h1>
+      <p>Weekly Show Schedule • Where The Music Comes First</p>
+    </div>
+    <div class="live-box" aria-live="polite">
+      <div class="live-label">ON AIR NOW</div>
+      <div id="liveShow" class="live-show"><span class="live-dot"></span>Checking schedule…</div>
+      <div id="liveDj" class="live-dj"></div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="controls-left">
+      <button id="prevWeek" type="button">‹ Previous</button>
+      <button id="todayBtn" type="button">Today</button>
+      <button id="nextWeek" type="button">Next ›</button>
+      <span id="weekLabel"></span>
+    </div>
+    <div class="controls-right">
+      <span id="status" class="status">Loading schedule…</span>
+    </div>
+  </div>
+
+  <div id="calendarArea" class="calendar-wrap">
+    <div style="padding:30px;text-align:center;color:#aaa">Loading SMR schedule…</div>
+  </div>
+
+  <div class="legend">
+    <span><i class="l-weekly"></i> Weekly</span>
+    <span><i class="l-weekday"></i> Weekdays</span>
+    <span><i class="l-daily"></i> Daily</span>
+    <span><i class="l-once"></i> One-off</span>
+  </div>
+
+  <section class="section">
+    <h2>Complete Schedule Information</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Show</th><th>Type</th><th>Day / Date</th><th>Start</th><th>End</th><th>Presenter / DJ</th></tr></thead>
+        <tbody id="detailsBody"></tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script>
+const SCHEDULE_URL="https://raw.githubusercontent.com/djpetebest-smr/smr-music-history/refs/heads/main/smr-show-schedule.json";
+const REFRESH_MS=60000;
+const days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const keys=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
+let schedule=null;
+let weekStart=startOfWeek(new Date());
+
+function startOfWeek(d){const x=new Date(d);x.setHours(0,0,0,0);x.setDate(x.getDate()-x.getDay());return x}
+function addDays(d,n){const x=new Date(d);x.setDate(x.getDate()+n);return x}
+function pad(n){return String(n).padStart(2,"0")}
+function dateKey(d){return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`}
+function mins(t){if(!t)return null;const m=/^(\d{1,2}):(\d{2})$/.exec(t);return m?Number(m[1])*60+Number(m[2]):null}
+function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function occurs(show,d){
+  const dow=d.getDay();
+  if(show.type==="daily")return true;
+  if(show.type==="weekday")return dow>=1&&dow<=5;
+  if(show.type==="weekly")return show.day===keys[dow];
+  if(show.type==="once")return show.date===dateKey(d);
+  return false;
+}
+function djFor(show,d){
+  return show.djByDay ? (show.djByDay[String(d.getDay())]||show.dj||"") : (show.dj||"");
+}
+function labelForType(t){return t==="weekday"?"Weekdays":t==="daily"?"Daily":t==="once"?"One-off":"Weekly"}
+function weekText(){
+  const end=addDays(weekStart,6);
+  return `${weekStart.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})} – ${end.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}`;
+}
+function render(){
+  if(!schedule)return;
+  document.getElementById("weekLabel").textContent=weekText();
+  const cal=document.createElement("div");cal.className="calendar";
+  const corner=document.createElement("div");corner.className="day-head";corner.innerHTML="<div class='day-name'>TIME</div>";cal.appendChild(corner);
+  for(let i=0;i<7;i++){
+    const d=addDays(weekStart,i),h=document.createElement("div");
+    h.className="day-head"+(dateKey(d)===dateKey(new Date())?" today":"");
+    h.innerHTML=`<div class="day-name">${days[d.getDay()]}</div><div class="day-number">${d.getDate()}</div>`;
+    cal.appendChild(h);
+  }
+  const tc=document.createElement("div");tc.className="time-col";
+  for(let h=0;h<24;h++){const x=document.createElement("div");x.className="time-label";x.textContent=pad(h)+":00";tc.appendChild(x)}
+  cal.appendChild(tc);
+
+  for(let i=0;i<7;i++){
+    const d=addDays(weekStart,i),col=document.createElement("div");col.className="day-col";
+    const grid=document.createElement("div");grid.className="day-grid";
+    schedule.shows.filter(s=>occurs(s,d)).forEach(s=>{
+      const card=document.createElement("div");card.className="show "+(s.type||"weekly");
+      const st=mins(s.start),en=mins(s.end);let duration=(st!=null&&en!=null)?(en<=st?en+1440:en)-st:60;
+      duration=Math.max(40,Math.min(900,duration));
+      card.style.top=(st==null?0:st)+"px";card.style.height=duration+"px";
+      if(en!=null&&st!=null&&en<=st)card.classList.add("overnight");
+      const dj=djFor(s,d);
+      card.innerHTML=`<div class="show-time">${escapeHtml(s.start||"")} – ${escapeHtml(s.end||"")}</div><div class="show-name">${escapeHtml(s.name)}</div>${dj?`<div class="show-dj">🎙️ ${escapeHtml(dj)}</div>`:""}`;
+      grid.appendChild(card);
+
+      if(en!=null&&st!=null&&en<=st&&i<6){
+        const next=addDays(d,1);
+        const cont=document.createElement("div");cont.className="show "+(s.type||"weekly")+" overnight";
+        cont.style.top="0px";cont.style.height=Math.max(40,en)+"px";
+        cont.innerHTML=`<div class="show-time">00:00 – ${escapeHtml(s.end)}</div><div class="show-name">${escapeHtml(s.name)}</div>${dj?`<div class="show-dj">🎙️ ${escapeHtml(dj)}</div>`:""}`;
+        // appended to next day after its column exists
+        setTimeout(()=>{
+          const cols=[...cal.querySelectorAll(".day-col")];
+          const target=cols[i+1];if(target)target.querySelector(".day-grid").appendChild(cont);
+        },0);
+      }
+    });
+    col.appendChild(grid);cal.appendChild(col);
+  }
+  document.getElementById("calendarArea").replaceChildren(cal);
+}
+function renderTable(){
+  const body=document.getElementById("detailsBody");body.innerHTML="";
+  schedule.shows.forEach(s=>{
+    let dayDate=s.type==="weekly"?s.day:s.type==="weekday"?"Monday–Friday":s.type==="daily"?"Every day":s.date||"";
+    let dj=s.dj||"";
+    if(s.djByDay)dj=Object.entries(s.djByDay).map(([d,n])=>`${days[Number(d)]}: ${n}`).join(" • ");
+    const tr=document.createElement("tr");
+    tr.innerHTML=`<td><b>${escapeHtml(s.name)}</b></td><td><span class="badge">${escapeHtml(labelForType(s.type))}</span></td><td>${escapeHtml(dayDate)}</td><td>${escapeHtml(s.start||"")}</td><td>${escapeHtml(s.end||"")}</td><td>${escapeHtml(dj)}</td>`;
+    body.appendChild(tr);
+  });
+}
+function getCurrentMinutes(){
+  const parts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(new Date());
+  const h=Number(parts.find(p=>p.type==="hour").value),m=Number(parts.find(p=>p.type==="minute").value);
+  return h*60+m;
+}
+function getLondonDate(){
+  const p=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/London",year:"numeric",month:"2-digit",day:"2-digit",weekday:"long"}).formatToParts(new Date());
+  const o={};p.forEach(x=>{if(x.type!=="literal")o[x.type]=x.value});
+  return {weekday:o.weekday.toLowerCase(),date:`${o.year}-${o.month}-${o.day}`};
+}
+function updateLive(){
+  if(!schedule)return;
+  const uk=getLondonDate(),dow=keys.indexOf(uk.weekday),now=getCurrentMinutes();
+  const candidates=[];
+  schedule.shows.forEach(s=>{
+    if(!occurs(s,new Date(`${uk.date}T12:00:00`)))return;
+    const st=mins(s.start),en=mins(s.end);if(st==null||en==null)return;
+    if(en>st && now>=st && now<en)candidates.push(s);
+    if(en<=st && (now>=st || now<en))candidates.push(s);
+  });
+  const live=candidates.sort((a,b)=>(mins(b.start)||0)-(mins(a.start)||0))[0];
+  const title=document.getElementById("liveShow"),dj=document.getElementById("liveDj");
+  if(live){
+    title.innerHTML=`<span class="live-dot"></span>${escapeHtml(live.name)}`;
+    const fakeDate=new Date(`${uk.date}T12:00:00`);dj.textContent=djFor(live,fakeDate)?`with ${djFor(live,fakeDate)}`:"";
+  }else{
+    title.innerHTML=`<span class="live-dot" style="background:#777;box-shadow:none"></span>No scheduled show`;
+    dj.textContent="Social Music Radio";
+  }
+}
+async function load(){
+  try{
+    const r=await fetch(SCHEDULE_URL+"?v="+Date.now(),{cache:"no-store"});
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    const data=await r.json();
+    if(!data||!Array.isArray(data.shows))throw new Error("Invalid JSON");
+    schedule=data;render();renderTable();updateLive();
+    document.getElementById("status").textContent=`Updated ${new Date().toLocaleTimeString("en-GB")} • ${data.shows.length} schedule entries • ${data.timezone||"Europe/London"}`;
+  }catch(e){
+    document.getElementById("status").textContent="Schedule unavailable";
+    document.getElementById("calendarArea").innerHTML='<div class="error">Unable to load the SMR schedule. Please try again.</div>';
+    console.error(e);
+  }
+}
+document.getElementById("prevWeek").addEventListener("click",()=>{weekStart=addDays(weekStart,-7);render()});
+document.getElementById("nextWeek").addEventListener("click",()=>{weekStart=addDays(weekStart,7);render()});
+document.getElementById("todayBtn").addEventListener("click",()=>{weekStart=startOfWeek(new Date());render()});
+load();setInterval(load,REFRESH_MS);setInterval(updateLive,15000);
+</script>
+</body>
+</html>
