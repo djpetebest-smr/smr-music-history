@@ -97,11 +97,19 @@
       "dj": "Tim"
     },
     {
+      "name": "Saturday House Party",
+      "type": "weekly",
+      "day": "saturday",
+      "start": "17:00",
+      "end": "19:00",
+      "dj": "Chrissy & Welshie"
+    },
+    {
       "name": "LIVE FROM THE WELLINGTON",
       "type": "weekly",
       "day": "saturday",
-      "start": "19:00",
-      "end": "22:00",
+      "start": "21:00",
+      "end": "24:00",
       "dj": "DJ Pete Best"
     },
     {
@@ -187,7 +195,7 @@
     },
     {
       "name": "The Night Owl",
-      "type": "daily",
+      "type": "weekday",
       "start": "22:00",
       "end": "07:00",
       "dj": "DJ Marv"
