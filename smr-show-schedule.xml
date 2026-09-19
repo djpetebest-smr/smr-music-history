@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>The Breakfast Club with DJ Loyd - The Wizard OF Oz</title>
-      <description>The Breakfast Club with DJ Loyd - The Wizard OF Oz from 08:00 to 10:00.</description>
-      <pubDate>Sat, 19 Sep 2026 08:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Breakfast-Club-2026-09-19T08-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Retro Saturday Radio Show with DJ Pete Best</title>
       <description>Retro Saturday Radio Show with DJ Pete Best from 10:00 to 13:00.</description>
       <pubDate>Sat, 19 Sep 2026 10:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The Insanitarium with Jason X from 20:00 to 22:00.</description>
       <pubDate>Fri, 25 Sep 2026 20:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Insanitarium-2026-09-25T20-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Night Owl with DJ Marv</title>
+      <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
+      <pubDate>Fri, 25 Sep 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Night-Owl-2026-09-25T22-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
