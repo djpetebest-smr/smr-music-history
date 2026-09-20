@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Rick&apos;s Music Vaults with DJ Rick Culley</title>
-      <description>Rick&apos;s Music Vaults with DJ Rick Culley from 08:00 to 10:00.</description>
-      <pubDate>Sun, 20 Sep 2026 08:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Rick-s-Music-Vaults-2026-09-20T08-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Easy Like A Sunday Morning with DJ Killa</title>
       <description>Easy Like A Sunday Morning with DJ Killa from 10:00 to 12:00.</description>
       <pubDate>Sun, 20 Sep 2026 10:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>Saturday House Party with Chrissy &amp; Welshie from 17:00 to 19:00.</description>
       <pubDate>Sat, 26 Sep 2026 17:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Saturday-House-Party-2026-09-26T17-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>LIVE FROM THE WELLINGTON with DJ Pete Best</title>
+      <description>LIVE FROM THE WELLINGTON with DJ Pete Best from 21:00 to 00:00.</description>
+      <pubDate>Sat, 26 Sep 2026 21:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-LIVE-FROM-THE-WELLINGTON-2026-09-26T21-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
