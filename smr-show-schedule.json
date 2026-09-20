@@ -77,7 +77,7 @@
       "day": "saturday",
       "start": "10:00",
       "end": "13:00",
-      "dj": "DJ Pete Best"
+      "dj": "Paul The Mod"
     },
      
     {
@@ -97,21 +97,14 @@
       "dj": "Tim"
     },
     {
-      "name": "Saturday House Party",
+      "name": "Saturday Party",
       "type": "weekly",
       "day": "saturday",
-      "start": "17:00",
-      "end": "19:00",
-      "dj": "Chrissy & Welshie"
+      "start": "19:00",
+      "end": "20:00",
+      "dj": "Mark & Ali Carter"
     },
-    {
-      "name": "LIVE FROM THE WELLINGTON",
-      "type": "weekly",
-      "day": "saturday",
-      "start": "21:00",
-      "end": "24:00",
-      "dj": "DJ Pete Best"
-    },
+    
     {
       "name": "Rick's Music Vaults",
       "type": "weekly",
