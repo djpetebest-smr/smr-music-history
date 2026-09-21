@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Alison&apos;s Country Sessions with Alison</title>
-      <description>Alison&apos;s Country Sessions with Alison from 20:00 to 22:00.</description>
-      <pubDate>Mon, 21 Sep 2026 20:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Alison-s-Country-Sessions-2026-09-21T20-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Night Owl with DJ Marv</title>
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Mon, 21 Sep 2026 22:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The Pick N Mix Show with DJ Marky Mark from 18:00 to 20:00.</description>
       <pubDate>Mon, 28 Sep 2026 18:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Pick-N-Mix-Show-2026-09-28T18-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Alison&apos;s Country Sessions with Alison</title>
+      <description>Alison&apos;s Country Sessions with Alison from 20:00 to 22:00.</description>
+      <pubDate>Mon, 28 Sep 2026 20:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Alison-s-Country-Sessions-2026-09-28T20-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
