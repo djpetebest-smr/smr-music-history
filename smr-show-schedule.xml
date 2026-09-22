@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Down The Rabbit Hole with DJ Yellams</title>
-      <description>Down The Rabbit Hole with DJ Yellams from 20:00 to 22:00.</description>
-      <pubDate>Tue, 22 Sep 2026 20:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Down-The-Rabbit-Hole-2026-09-22T20-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Night Owl with DJ Marv</title>
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Tue, 22 Sep 2026 22:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
       <pubDate>Tue, 29 Sep 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-SMR-Music-Mix-2026-09-29T12-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Down The Rabbit Hole with DJ Yellams</title>
+      <description>Down The Rabbit Hole with DJ Yellams from 20:00 to 22:00.</description>
+      <pubDate>Tue, 29 Sep 2026 20:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Down-The-Rabbit-Hole-2026-09-29T20-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
