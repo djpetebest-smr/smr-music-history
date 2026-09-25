@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>Jonesey&apos;s Jam-Boree with Matt Jones</title>
-      <description>Jonesey&apos;s Jam-Boree with Matt Jones from 18:00 to 20:00.</description>
-      <pubDate>Fri, 25 Sep 2026 18:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Jonesey-s-Jam-Boree-2026-09-25T18-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Insanitarium with Jason X</title>
       <description>The Insanitarium with Jason X from 20:00 to 22:00.</description>
       <pubDate>Fri, 25 Sep 2026 20:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
       <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-SMR-Music-Mix-2026-10-02T12-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Jonesey&apos;s Jam-Boree with Matt Jones</title>
+      <description>Jonesey&apos;s Jam-Boree with Matt Jones from 18:00 to 20:00.</description>
+      <pubDate>Fri, 02 Oct 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Jonesey-s-Jam-Boree-2026-10-02T18-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
