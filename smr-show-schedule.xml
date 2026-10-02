@@ -9,22 +9,6 @@
 
 
     <item>
-      <title>The Morning Mix with Chris Dexter</title>
-      <description>The Morning Mix with Chris Dexter from 10:00 to 12:00.</description>
-      <pubDate>Fri, 02 Oct 2026 10:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Morning-Mix-2026-10-02T10-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>SMR Music Mix with Marv</title>
-      <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
-      <pubDate>Fri, 02 Oct 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-10-02T12-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Jonesey&apos;s Jam-Boree with Matt Jones</title>
       <description>Jonesey&apos;s Jam-Boree with Matt Jones from 18:00 to 20:00.</description>
       <pubDate>Fri, 02 Oct 2026 18:00:00 GMT</pubDate>
@@ -49,16 +33,16 @@
     </item>
 
     <item>
-      <title>The Breakfast Club with DJ Loyd - The Wizard OF Oz</title>
-      <description>The Breakfast Club with DJ Loyd - The Wizard OF Oz from 08:00 to 10:00.</description>
+      <title>The Breakfast Club with Chris Dexter</title>
+      <description>The Breakfast Club with Chris Dexter from 08:00 to 10:00.</description>
       <pubDate>Sat, 03 Oct 2026 08:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Breakfast-Club-2026-10-03T08-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
     <item>
-      <title>Retro Saturday Radio Show with Paul The Mod</title>
-      <description>Retro Saturday Radio Show with Paul The Mod from 10:00 to 13:00.</description>
+      <title>Retro Saturday Radio Show with Pete Best</title>
+      <description>Retro Saturday Radio Show with Pete Best from 10:00 to 13:00.</description>
       <pubDate>Sat, 03 Oct 2026 10:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Retro-Saturday-Radio-Show-2026-10-03T10-00-00-000Z</guid>
       <category>Radio Show</category>
@@ -105,8 +89,8 @@
     </item>
 
     <item>
-      <title>Sunday Soul &amp; Reggae Show with DJ Paul The MOD </title>
-      <description>Sunday Soul &amp; Reggae Show with DJ Paul The MOD  from 12:00 to 14:00.</description>
+      <title>Sunday Soul &amp; Reggae Show with DJ Pete Best </title>
+      <description>Sunday Soul &amp; Reggae Show with DJ Pete Best  from 12:00 to 14:00.</description>
       <pubDate>Sun, 04 Oct 2026 12:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Sunday-Soul---Reggae-Show-2026-10-04T12-00-00-000Z</guid>
       <category>Radio Show</category>
@@ -325,6 +309,22 @@
       <description>The Breakfast Club with DJ Loyd - The Wizard Of Oz from 08:00 to 10:00.</description>
       <pubDate>Fri, 09 Oct 2026 08:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Breakfast-Club-2026-10-09T08-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Morning Mix with Chris Dexter</title>
+      <description>The Morning Mix with Chris Dexter from 10:00 to 12:00.</description>
+      <pubDate>Fri, 09 Oct 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Morning-Mix-2026-10-09T10-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>SMR Music Mix with Marv</title>
+      <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-10-09T12-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
