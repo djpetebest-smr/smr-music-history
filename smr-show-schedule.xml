@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>All Kinds Of Everything with Pete Downes</title>
-      <description>All Kinds Of Everything with Pete Downes from 18:00 to 20:00.</description>
-      <pubDate>Tue, 06 Oct 2026 18:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-All-Kinds-Of-Everything-2026-10-06T18-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Down The Rabbit Hole with DJ Yellams</title>
       <description>Down The Rabbit Hole with DJ Yellams from 20:00 to 22:00.</description>
       <pubDate>Tue, 06 Oct 2026 20:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>The Morning Mix with DJ Rick Culley from 10:00 to 12:00.</description>
       <pubDate>Tue, 13 Oct 2026 10:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Morning-Mix-2026-10-13T10-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>SMR Music Mix with Marv</title>
+      <description>SMR Music Mix with Marv from 12:00 to 18:00.</description>
+      <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-10-13T12-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
