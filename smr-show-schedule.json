@@ -169,6 +169,15 @@
       "end": "22:00",
       "dj": "Alison"
     },
+
+    {
+      "name": "All Kinds Of Everything",
+      "type": "weekly",
+      "day": "tuesday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Pete Downes"
+    },
     
     {
       "name": "Down The Rabbit Hole",
