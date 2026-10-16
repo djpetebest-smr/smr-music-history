@@ -24,37 +24,55 @@
 
     {
       "name": "SMR Music Mix",
+       "type": "weekly",
       "type": "monday",
       "start": "12:00",
       "end": "15:00",
       "dj": "Marv"
     },
+    {
+      "name": "Dinner Time Disco",
+       "type": "weekly",
+      "type": "tuesday",
+      "start": "12:00",
+      "end": "14:00",
+      "dj": "Les D"
+    },
 {
       "name": "SMR Music Mix",
+     "type": "weekly",
       "type": "tuesday",
       "start": "14:00",
       "end": "15:00",
       "dj": "Marv"
     },
-
-    {
+{
       "name": "SMR Music Mix",
-      "type": "thursday",
-      "start": "14:00",
-      "end": "15:00",
-      "dj": "Marv"
-    },
-
-     {
-      "name": "SMR Music Mix",
+     "type": "weekly",
       "type": "wednesday",
       "start": "12:00",
       "end": "15:00",
       "dj": "Marv"
     },
-
     {
       "name": "SMR Music Mix",
+       "type": "weekly",
+      "type": "thursday",
+      "start": "14:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+{
+      "name": "Dinner Time Disco",
+     "type": "weekly",
+      "type": "thursday",
+      "start": "12:00",
+      "end": "14:00",
+      "dj": "Les D"
+    },
+    {
+      "name": "SMR Music Mix",
+       "type": "weekly",
       "type": "friday",
       "start": "12:00",
       "end": "15:00",
@@ -62,30 +80,13 @@
     },
     
     {
-      "name": "Dinner Time Disco",
-      "type": "tuesday",
-      "start": "12:00",
-      "end": "14:00",
-      "dj": "Les D"
-    },
-
-    {
-      "name": "Dinner Time Disco",
-      "type": "thursday",
-      "start": "12:00",
-      "end": "14:00",
-      "dj": "Les D"
-    },
-
-    {
       "name": "Afternoon Memories",
       "type": "weekday",
       "start": "15:00",
       "end": "16:00",
       "dj": "SMR DJ"
     },
-    
-    
+       
     {
       "name": "Thirsty Thursday ",
       "type": "weekly",
