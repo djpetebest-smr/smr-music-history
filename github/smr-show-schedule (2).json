@@ -1,0 +1,270 @@
+{
+  "timezone": "Europe/London",
+  "shows": [
+   {
+      "name": "The Breakfast Club",
+      "type": "weekday",
+      "start": "08:00",
+      "end": "10:00",
+      "dj": "DJ Loyd - The Wizard Of Oz"
+    },
+    {
+      "name": "The Morning Mix",
+      "type": "weekday",
+      "start": "10:00",
+      "end": "12:00",
+      "djByDay": {
+        "1": "Paul The Mod",
+        "2": "DJ Rick Culley",
+        "3": "DJ Rick Culley",
+        "4": "DJ Rick Culley",
+        "5": "Chris Dexter"
+      }
+          },
+
+    {
+      "name": "SMR Music Mix",
+       "type": "weekly",
+      "type": "monday",
+      "start": "12:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+    {
+      "name": "Dinner Time Disco",
+       "type": "weekly",
+      "type": "tuesday",
+      "start": "12:00",
+      "end": "14:00",
+      "dj": "Les D"
+    },
+{
+      "name": "SMR Music Mix",
+     "type": "weekly",
+      "type": "tuesday",
+      "start": "14:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+{
+      "name": "SMR Music Mix",
+     "type": "weekly",
+      "type": "wednesday",
+      "start": "12:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+    {
+      "name": "SMR Music Mix",
+       "type": "weekly",
+      "type": "thursday",
+      "start": "14:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+{
+      "name": "Dinner Time Disco",
+     "type": "weekly",
+      "type": "thursday",
+      "start": "12:00",
+      "end": "14:00",
+      "dj": "Les D"
+    },
+    {
+      "name": "SMR Music Mix",
+       "type": "weekly",
+      "type": "friday",
+      "start": "12:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+    
+    {
+      "name": "Afternoon Memories",
+      "type": "weekday",
+      "start": "15:00",
+      "end": "16:00",
+      "dj": "SMR DJ"
+    },
+       
+    {
+      "name": "Thirsty Thursday ",
+      "type": "weekly",
+      "day": "thursday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Missy Chrissy"
+    },
+    {
+      "name": "SMR 80s Night",
+      "type": "weekly",
+      "day": "thursday",
+      "start": "20:00",
+      "end": "22:00",
+      "dj": "Mark Getz"
+    },
+    {
+      "name": "Jonesey's Jam-Boree",
+      "type": "weekly",
+      "day": "friday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Matt Jones"
+    },
+    {
+      "name": "The Insanitarium",
+      "type": "weekly",
+      "day": "friday",
+      "start": "20:00",
+      "end": "22:00",
+      "dj": "Jason X"
+    },
+    {
+      "name": "The Breakfast Club",
+      "type": "weekly",
+      "day": "saturday",
+      "start": "08:00",
+      "end": "10:00",
+      "dj": "Chris Dexter"
+    },
+    {
+      "name": "Retro Saturday Radio Show",
+      "type": "weekly",
+      "day": "saturday",
+      "start": "10:00",
+      "end": "13:00",
+      "dj": "Pete Best"
+    },
+     
+    {
+      "name": "The 80's & 90's Show",
+      "type": "weekly",
+      "day": "saturday",
+      "start": "13:00",
+      "end": "15:00",
+      "dj": "Pete Downes"
+    },
+    {
+      "name": "Tims Audio Library",
+      "type": "weekly",
+      "day": "saturday",
+      "start": "15:00",
+      "end": "17:00",
+      "dj": "Tim"
+    },
+    {
+      "name": "Saturday Party",
+      "type": "weekly",
+      "day": "saturday",
+      "start": "19:00",
+      "end": "20:00",
+      "dj": "Mark & Ali Carter"
+    },
+    
+    {
+      "name": "Rick's Music Vaults",
+      "type": "weekly",
+      "day": "sunday",
+      "start": "08:00",
+      "end": "10:00",
+      "dj": "DJ Rick Culley"
+    },
+    {
+      "name": "Easy Like A Sunday Morning",
+      "type": "weekly",
+      "day": "sunday",
+      "start": "10:00",
+      "end": "12:00",
+      "dj": "DJ Killa"
+    },
+    {
+      "name": "Sunday Soul & Reggae Show",
+      "type": "weekly",
+      "day": "sunday",
+      "start": "12:00",
+      "end": "14:00",
+      "dj": "DJ Pete Best "
+    },
+    {
+      "name": "60's Sunday",
+      "type": "weekly",
+      "day": "sunday",
+      "start": "14:00",
+      "end": "16:00",
+      "dj": "Marky Mark"
+    },
+    {
+      "name": "Alisons Allsorts",
+      "type": "weekly",
+      "day": "sunday",
+      "start": "16:00",
+      "end": "18:00",
+      "dj": "Alison"
+    },
+    {
+      "name": "Vapour Cockney Music",
+      "type": "weekly",
+      "day": "sunday",
+      "start": "19:00",
+      "end": "22:00",
+      "dj": "Vapour with Co Host Chris James of RNI"
+    },
+    {
+      "name": "The Pick N Mix Show",
+      "type": "weekly",
+      "day": "monday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "DJ Marky Mark"
+    },
+    {
+      "name": "Alison's Country Sessions",
+      "type": "weekly",
+      "day": "monday",
+      "start": "20:00",
+      "end": "22:00",
+      "dj": "Alison"
+    },
+
+    {
+      "name": "All Kinds Of Everything",
+      "type": "weekly",
+      "day": "tuesday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Pete Downes"
+    },
+    
+    {
+      "name": "Down The Rabbit Hole",
+      "type": "weekly",
+      "day": "tuesday",
+      "start": "20:00",
+      "end": "22:00",
+      "dj": "DJ Yellams"
+    },
+    {
+      "name": "American Vintage Chart Show",
+      "type": "weekly",
+      "day": "wednesday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Louise"
+    },
+    {
+      "name": "The Night Owl",
+      "type": "weekday",
+      "start": "22:00",
+      "end": "07:00",
+      "dj": "DJ Marv"
+    },
+    {
+      "name": "Anything Goes",
+      "type": "weekly",
+      "day": "wednesday",
+      "start": "20:00",
+      "end": "22:00",
+      "dj": "Dean & Helpful Joe"
+    }
+  ]
+}
