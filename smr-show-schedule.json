@@ -19,15 +19,61 @@
         "3": "DJ Rick Culley",
         "4": "DJ Rick Culley",
         "5": "Chris Dexter"
-      }
+          },
+
+    {
+      "name": "SMR Music Mix",
+      "type": "monday",
+      "start": "12:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+{
+      "name": "SMR Music Mix",
+      "type": "tuesday",
+      "start": "14:00",
+      "end": "15:00",
+      "dj": "Marv"
     },
 
     {
       "name": "SMR Music Mix",
-      "type": "weekday",
+      "type": "thursday",
+      "start": "14:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+
+     {
+      "name": "SMR Music Mix",
+      "type": "wednesday",
+      "start": "12:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+
+    {
+      "name": "SMR Music Mix",
+      "type": "friday",
+      "start": "12:00",
+      "end": "15:00",
+      "dj": "Marv"
+    },
+    
+    {
+      "name": "Dinner Time Disco",
+      "type": "tuesday",
       "start": "12:00",
       "end": "14:00",
-      "dj": "Marv"
+      "dj": "Les D"
+    },
+
+    {
+      "name": "Dinner Time Disco",
+      "type": "thursday",
+      "start": "12:00",
+      "end": "14:00",
+      "dj": "Les D"
     },
 
     {
