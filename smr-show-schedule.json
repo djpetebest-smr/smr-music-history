@@ -73,7 +73,7 @@
     {
       "name": "SMR Music Mix",
        "type": "weekly",
-      "type": "friday",
+      "day": "friday",
       "start": "12:00",
       "end": "15:00",
       "dj": "Marv"
