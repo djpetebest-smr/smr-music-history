@@ -258,6 +258,22 @@
       "end": "07:00",
       "dj": "DJ Marv"
     },
+     {
+      "name": "The Night Owl",
+      "type": "weekly",
+       "day" saturday",
+      "start": "22:00",
+      "end": "07:00",
+      "dj": "DJ Marv"
+    },
+    {
+      "name": "The Night Owl",
+      "type": "weekly",
+       "day" sunday",
+      "start": "22:00",
+      "end": "07:00",
+      "dj": "DJ Marv"
+    },
     {
       "name": "Anything Goes",
       "type": "weekly",
