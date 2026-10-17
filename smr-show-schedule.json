@@ -88,7 +88,7 @@
     },
        
     {
-      "name": "Thirsty Thursday ",
+      "name": "Thirsty Thursday",
       "type": "weekly",
       "day": "thursday",
       "start": "18:00",
@@ -183,7 +183,7 @@
       "day": "sunday",
       "start": "12:00",
       "end": "14:00",
-      "dj": "Paul The Mod "
+      "dj": "Paul The Mod"
     },
     {
       "name": "60's Sunday",
