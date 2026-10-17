@@ -30,14 +30,14 @@
       "end": "15:00",
       "dj": "Marv"
     },
-    {
-      "name": "Dinner Time Disco",
-       "type": "weekly",
-      "type": "tuesday",
-      "start": "12:00",
-      "end": "14:00",
-      "dj": "Les D"
-    },
+   {
+  "name": "Dinner Time Disco",
+  "type": "weekly",
+  "day": "tuesday",
+  "start": "12:00",
+  "end": "14:00",
+  "dj": "Les D"
+}
 {
       "name": "SMR Music Mix",
      "type": "weekly",
@@ -63,13 +63,13 @@
       "dj": "Marv"
     },
 {
-      "name": "Dinner Time Disco",
-     "type": "weekly",
-      "type": "thursday",
-      "start": "12:00",
-      "end": "14:00",
-      "dj": "Les D"
-    },
+  "name": "Dinner Time Disco",
+  "type": "weekly",
+  "day": "thursday",
+  "start": "12:00",
+  "end": "14:00",
+  "dj": "Les D"
+}
     {
       "name": "SMR Music Mix",
        "type": "weekly",
