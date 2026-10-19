@@ -9,30 +9,6 @@
 
 
     <item>
-      <title>Afternoon Memories with SMR DJ</title>
-      <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
-      <pubDate>Mon, 19 Oct 2026 15:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Afternoon-Memories-2026-10-19T15-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>The Pick N Mix Show with DJ Marky Mark</title>
-      <description>The Pick N Mix Show with DJ Marky Mark from 18:00 to 20:00.</description>
-      <pubDate>Mon, 19 Oct 2026 18:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Pick-N-Mix-Show-2026-10-19T18-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>Alison&apos;s Country Sessions with Alison</title>
-      <description>Alison&apos;s Country Sessions with Alison from 20:00 to 22:00.</description>
-      <pubDate>Mon, 19 Oct 2026 20:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Alison-s-Country-Sessions-2026-10-19T20-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Night Owl with DJ Marv</title>
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Mon, 19 Oct 2026 22:00:00 GMT</pubDate>
@@ -325,6 +301,30 @@
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Sat, 24 Oct 2026 22:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Night-Owl-2026-10-24T22-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Rick&apos;s Music Vaults with DJ Rick Culley</title>
+      <description>Rick&apos;s Music Vaults with DJ Rick Culley from 08:00 to 10:00.</description>
+      <pubDate>Sun, 25 Oct 2026 08:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Rick-s-Music-Vaults-2026-10-25T08-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Easy Like A Sunday Morning with DJ Killa</title>
+      <description>Easy Like A Sunday Morning with DJ Killa from 10:00 to 12:00.</description>
+      <pubDate>Sun, 25 Oct 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Easy-Like-A-Sunday-Morning-2026-10-25T10-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Sunday Soul &amp; Reggae Show with Paul The Mod</title>
+      <description>Sunday Soul &amp; Reggae Show with Paul The Mod from 12:00 to 14:00.</description>
+      <pubDate>Sun, 25 Oct 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Sunday-Soul---Reggae-Show-2026-10-25T12-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
