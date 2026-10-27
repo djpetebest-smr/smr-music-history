@@ -9,30 +9,6 @@
 
 
     <item>
-      <title>Dinner Time Disco with Les D</title>
-      <description>Dinner Time Disco with Les D from 12:00 to 14:00.</description>
-      <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Dinner-Time-Disco-2026-10-27T12-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>SMR Music Mix with Marv</title>
-      <description>SMR Music Mix with Marv from 14:00 to 15:00.</description>
-      <pubDate>Tue, 27 Oct 2026 14:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-10-27T14-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>Afternoon Memories with SMR DJ</title>
-      <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
-      <pubDate>Tue, 27 Oct 2026 15:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Afternoon-Memories-2026-10-27T15-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>All Kinds Of Everything with Pete Downes</title>
       <description>All Kinds Of Everything with Pete Downes from 18:00 to 20:00.</description>
       <pubDate>Tue, 27 Oct 2026 18:00:00 GMT</pubDate>
@@ -325,6 +301,30 @@
       <description>Vapour Cockney Music with Vapour with Co Host Chris James of RNI from 19:00 to 22:00.</description>
       <pubDate>Sun, 01 Nov 2026 19:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Vapour-Cockney-Music-2026-11-01T19-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Night Owl with DJ Marv</title>
+      <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
+      <pubDate>Sun, 01 Nov 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Night-Owl-2026-11-01T22-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Breakfast Club with DJ Loyd - The Wizard Of Oz</title>
+      <description>The Breakfast Club with DJ Loyd - The Wizard Of Oz from 08:00 to 10:00.</description>
+      <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Breakfast-Club-2026-11-02T08-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Morning Mix with Paul The Mod</title>
+      <description>The Morning Mix with Paul The Mod from 10:00 to 12:00.</description>
+      <pubDate>Mon, 02 Nov 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Morning-Mix-2026-11-02T10-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
