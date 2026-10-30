@@ -9,22 +9,6 @@
 
 
     <item>
-      <title>Afternoon Memories with SMR DJ</title>
-      <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
-      <pubDate>Fri, 30 Oct 2026 15:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Afternoon-Memories-2026-10-30T15-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>Jonesey&apos;s Jam-Boree with Matt Jones</title>
-      <description>Jonesey&apos;s Jam-Boree with Matt Jones from 18:00 to 20:00.</description>
-      <pubDate>Fri, 30 Oct 2026 18:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Jonesey-s-Jam-Boree-2026-10-30T18-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Insanitarium with Jason X</title>
       <description>The Insanitarium with Jason X from 20:00 to 22:00.</description>
       <pubDate>Fri, 30 Oct 2026 20:00:00 GMT</pubDate>
@@ -325,6 +309,22 @@
       <description>The Breakfast Club with DJ Loyd - The Wizard Of Oz from 08:00 to 10:00.</description>
       <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Breakfast-Club-2026-11-05T08-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Morning Mix with DJ Rick Culley</title>
+      <description>The Morning Mix with DJ Rick Culley from 10:00 to 12:00.</description>
+      <pubDate>Thu, 05 Nov 2026 10:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Morning-Mix-2026-11-05T10-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Dinner Time Disco with Les D</title>
+      <description>Dinner Time Disco with Les D from 12:00 to 14:00.</description>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Dinner-Time-Disco-2026-11-05T12-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
