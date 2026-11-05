@@ -88,12 +88,12 @@
     },
        
     {
-      "name": "Thirsty Thursday",
+      "name": "Thursday Tunz",
       "type": "weekly",
       "day": "thursday",
       "start": "18:00",
       "end": "20:00",
-      "dj": "Missy Chrissy"
+      "dj": "Pete Best"
     },
     {
       "name": "SMR 80s Night",
@@ -183,7 +183,7 @@
       "day": "sunday",
       "start": "12:00",
       "end": "14:00",
-      "dj": "Paul The Mod"
+      "dj": "Pete Best"
     },
     {
       "name": "60's Sunday",
