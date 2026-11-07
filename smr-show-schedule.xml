@@ -9,30 +9,6 @@
 
 
     <item>
-      <title>The Breakfast Club with Chris Dexter</title>
-      <description>The Breakfast Club with Chris Dexter from 08:00 to 10:00.</description>
-      <pubDate>Sat, 07 Nov 2026 08:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Breakfast-Club-2026-11-07T08-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>Retro Saturday Radio Show with Pete Best</title>
-      <description>Retro Saturday Radio Show with Pete Best from 10:00 to 13:00.</description>
-      <pubDate>Sat, 07 Nov 2026 10:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Retro-Saturday-Radio-Show-2026-11-07T10-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>The 80&apos;s &amp; 90&apos;s Show with Pete Downes</title>
-      <description>The 80&apos;s &amp; 90&apos;s Show with Pete Downes from 13:00 to 15:00.</description>
-      <pubDate>Sat, 07 Nov 2026 13:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-80-s---90-s-Show-2026-11-07T13-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Tims Audio Library with Tim</title>
       <description>Tims Audio Library with Tim from 15:00 to 17:00.</description>
       <pubDate>Sat, 07 Nov 2026 15:00:00 GMT</pubDate>
@@ -325,6 +301,30 @@
       <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
       <pubDate>Thu, 12 Nov 2026 15:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Afternoon-Memories-2026-11-12T15-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Thursday Tunz with Pete Best</title>
+      <description>Thursday Tunz with Pete Best from 18:00 to 20:00.</description>
+      <pubDate>Thu, 12 Nov 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Thursday-Tunz-2026-11-12T18-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>SMR 80s Night with Mark Getz</title>
+      <description>SMR 80s Night with Mark Getz from 20:00 to 22:00.</description>
+      <pubDate>Thu, 12 Nov 2026 20:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-SMR-80s-Night-2026-11-12T20-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Night Owl with DJ Marv</title>
+      <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
+      <pubDate>Thu, 12 Nov 2026 22:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Night-Owl-2026-11-12T22-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
