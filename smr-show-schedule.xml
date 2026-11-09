@@ -9,22 +9,6 @@
 
 
     <item>
-      <title>The Pick N Mix Show with DJ Marky Mark</title>
-      <description>The Pick N Mix Show with DJ Marky Mark from 18:00 to 20:00.</description>
-      <pubDate>Mon, 09 Nov 2026 18:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Pick-N-Mix-Show-2026-11-09T18-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>Alison&apos;s Country Sessions with Alison</title>
-      <description>Alison&apos;s Country Sessions with Alison from 20:00 to 22:00.</description>
-      <pubDate>Mon, 09 Nov 2026 20:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Alison-s-Country-Sessions-2026-11-09T20-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Night Owl with DJ Marv</title>
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Mon, 09 Nov 2026 22:00:00 GMT</pubDate>
@@ -69,6 +53,14 @@
       <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
       <pubDate>Tue, 10 Nov 2026 15:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Afternoon-Memories-2026-11-10T15-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>All Kinds Of Everything with Pete Downes</title>
+      <description>All Kinds Of Everything with Pete Downes from 18:00 to 20:00.</description>
+      <pubDate>Tue, 10 Nov 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-All-Kinds-Of-Everything-2026-11-10T18-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
@@ -189,6 +181,14 @@
       <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
       <pubDate>Thu, 12 Nov 2026 15:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Afternoon-Memories-2026-11-12T15-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Thirsty Thursday with Missy Chrissy</title>
+      <description>Thirsty Thursday with Missy Chrissy from 16:00 to 18:00.</description>
+      <pubDate>Thu, 12 Nov 2026 16:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Thirsty-Thursday-2026-11-12T16-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
