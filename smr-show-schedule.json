@@ -38,6 +38,15 @@
   "end": "14:00",
   "dj": "Les D"
 },
+
+     {
+  "name": "All Kinds Of Everything",
+  "type": "weekly",
+  "day": "tuesday",
+  "start": "18:00",
+  "end": "20:00",
+  "dj": "Pete Downes"
+},
 {
       "name": "SMR Music Mix",
      "type": "weekly",
@@ -86,6 +95,14 @@
       "end": "16:00",
       "dj": "SMR DJ"
     },
+    {
+  "name": "Thirsty Thursday",
+  "type": "weekly",
+  "day": "thursday",
+  "start": "16:00",
+  "end": "18:00",
+  "dj": "Missy Chrissy"
+},
        
     {
       "name": "Thursday Tunz",
