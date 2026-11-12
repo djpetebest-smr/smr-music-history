@@ -9,30 +9,6 @@
 
 
     <item>
-      <title>The Breakfast Club with DJ Loyd - The Wizard Of Oz</title>
-      <description>The Breakfast Club with DJ Loyd - The Wizard Of Oz from 08:00 to 10:00.</description>
-      <pubDate>Thu, 12 Nov 2026 08:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Breakfast-Club-2026-11-12T08-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>The Morning Mix with DJ Rick Culley</title>
-      <description>The Morning Mix with DJ Rick Culley from 10:00 to 12:00.</description>
-      <pubDate>Thu, 12 Nov 2026 10:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Morning-Mix-2026-11-12T10-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>Dinner Time Disco with Les D</title>
-      <description>Dinner Time Disco with Les D from 12:00 to 14:00.</description>
-      <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Dinner-Time-Disco-2026-11-12T12-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>SMR Music Mix with Marv</title>
       <description>SMR Music Mix with Marv from 14:00 to 15:00.</description>
       <pubDate>Thu, 12 Nov 2026 14:00:00 GMT</pubDate>
@@ -325,6 +301,30 @@
       <description>SMR Music Mix with Marv from 14:00 to 15:00.</description>
       <pubDate>Tue, 17 Nov 2026 14:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-SMR-Music-Mix-2026-11-17T14-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Afternoon Memories with SMR DJ</title>
+      <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
+      <pubDate>Tue, 17 Nov 2026 15:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Afternoon-Memories-2026-11-17T15-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>All Kinds Of Everything with Pete Downes</title>
+      <description>All Kinds Of Everything with Pete Downes from 18:00 to 20:00.</description>
+      <pubDate>Tue, 17 Nov 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-All-Kinds-Of-Everything-2026-11-17T18-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>All Kinds Of Everything with Pete Downes</title>
+      <description>All Kinds Of Everything with Pete Downes from 18:00 to 20:00.</description>
+      <pubDate>Tue, 17 Nov 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-All-Kinds-Of-Everything-2026-11-17T18-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
