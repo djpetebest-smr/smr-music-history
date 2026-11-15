@@ -9,30 +9,6 @@
 
 
     <item>
-      <title>Easy Like A Sunday Morning with DJ Killa</title>
-      <description>Easy Like A Sunday Morning with DJ Killa from 10:00 to 12:00.</description>
-      <pubDate>Sun, 15 Nov 2026 10:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Easy-Like-A-Sunday-Morning-2026-11-15T10-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>Sunday Soul &amp; Reggae Show with Paul The Mod</title>
-      <description>Sunday Soul &amp; Reggae Show with Paul The Mod from 12:00 to 14:00.</description>
-      <pubDate>Sun, 15 Nov 2026 12:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Sunday-Soul---Reggae-Show-2026-11-15T12-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>60&apos;s Sunday with Marky Mark</title>
-      <description>60&apos;s Sunday with Marky Mark from 14:00 to 16:00.</description>
-      <pubDate>Sun, 15 Nov 2026 14:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-60-s-Sunday-2026-11-15T14-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>Alisons Allsorts with Alison</title>
       <description>Alisons Allsorts with Alison from 16:00 to 18:00.</description>
       <pubDate>Sun, 15 Nov 2026 16:00:00 GMT</pubDate>
@@ -325,6 +301,30 @@
       <description>The Morning Mix with Chris Dexter from 10:00 to 12:00.</description>
       <pubDate>Fri, 20 Nov 2026 10:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Morning-Mix-2026-11-20T10-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>SMR Music Mix with Marv</title>
+      <description>SMR Music Mix with Marv from 12:00 to 15:00.</description>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-11-20T12-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Afternoon Memories with SMR DJ</title>
+      <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
+      <pubDate>Fri, 20 Nov 2026 15:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Afternoon-Memories-2026-11-20T15-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Jonesey&apos;s Jam-Boree with Matt Jones</title>
+      <description>Jonesey&apos;s Jam-Boree with Matt Jones from 18:00 to 20:00.</description>
+      <pubDate>Fri, 20 Nov 2026 18:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Jonesey-s-Jam-Boree-2026-11-20T18-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
