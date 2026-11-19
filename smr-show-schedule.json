@@ -128,14 +128,7 @@
       "end": "20:00",
       "dj": "Matt Jones"
     },
-    {
-      "name": "The Insanitarium",
-      "type": "weekly",
-      "day": "friday",
-      "start": "20:00",
-      "end": "22:00",
-      "dj": "Jason X"
-    },
+   
     {
       "name": "The Breakfast Club",
       "type": "weekly",
@@ -218,11 +211,20 @@
       "end": "18:00",
       "dj": "Alison"
     },
+
+     {
+      "name": "The Insanitarium",
+      "type": "weekly",
+      "day": "sunday",
+      "start": "18:00",
+      "end": "20:00",
+      "dj": "Jason X"
+    },
     {
       "name": "Vapour Cockney Music",
       "type": "weekly",
       "day": "sunday",
-      "start": "19:00",
+      "start": "20:00",
       "end": "22:00",
       "dj": "Vapour with Co Host Chris James of RNI"
     },
