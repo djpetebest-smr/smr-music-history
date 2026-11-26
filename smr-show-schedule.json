@@ -196,7 +196,7 @@
       "dj": "Paul The Mod"
     },
     {
-      "name": "60's Sunday",
+      "name": "The 70's Show",
       "type": "weekly",
       "day": "sunday",
       "start": "14:00",
@@ -215,19 +215,12 @@
      {
       "name": "The Insanitarium",
       "type": "weekly",
-      "day": "sunday",
-      "start": "18:00",
-      "end": "20:00",
-      "dj": "Jason X"
-    },
-    {
-      "name": "Vapour Cockney Music",
-      "type": "weekly",
-      "day": "sunday",
+      "day": "friday",
       "start": "20:00",
       "end": "22:00",
-      "dj": "Vapour with Co Host Chris James of RNI"
+      "dj": "Jason X"
     },
+   
     {
       "name": "The Pick N Mix Show",
       "type": "weekly",
