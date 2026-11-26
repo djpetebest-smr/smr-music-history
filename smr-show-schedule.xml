@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>The Breakfast Club with DJ Loyd - The Wizard Of Oz</title>
-      <description>The Breakfast Club with DJ Loyd - The Wizard Of Oz from 08:00 to 10:00.</description>
-      <pubDate>Thu, 26 Nov 2026 08:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Breakfast-Club-2026-11-26T08-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Morning Mix with DJ Rick Culley</title>
       <description>The Morning Mix with DJ Rick Culley from 10:00 to 12:00.</description>
       <pubDate>Thu, 26 Nov 2026 10:00:00 GMT</pubDate>
@@ -325,6 +317,14 @@
       <description>SMR Music Mix with Marv from 14:00 to 15:00.</description>
       <pubDate>Tue, 01 Dec 2026 14:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-SMR-Music-Mix-2026-12-01T14-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Afternoon Memories with SMR DJ</title>
+      <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
+      <pubDate>Tue, 01 Dec 2026 15:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Afternoon-Memories-2026-12-01T15-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
