@@ -9,14 +9,6 @@
 
 
     <item>
-      <title>SMR 80s Night with Mark Getz</title>
-      <description>SMR 80s Night with Mark Getz from 20:00 to 22:00.</description>
-      <pubDate>Thu, 26 Nov 2026 20:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-SMR-80s-Night-2026-11-26T20-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
       <title>The Night Owl with DJ Marv</title>
       <description>The Night Owl with DJ Marv from 22:00 to 07:00.</description>
       <pubDate>Thu, 26 Nov 2026 22:00:00 GMT</pubDate>
@@ -61,6 +53,14 @@
       <description>Jonesey&apos;s Jam-Boree with Matt Jones from 18:00 to 20:00.</description>
       <pubDate>Fri, 27 Nov 2026 18:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Jonesey-s-Jam-Boree-2026-11-27T18-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>The Insanitarium with Jason X</title>
+      <description>The Insanitarium with Jason X from 20:00 to 22:00.</description>
+      <pubDate>Fri, 27 Nov 2026 20:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-The-Insanitarium-2026-11-27T20-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
@@ -145,10 +145,10 @@
     </item>
 
     <item>
-      <title>60&apos;s Sunday with Marky Mark</title>
-      <description>60&apos;s Sunday with Marky Mark from 14:00 to 16:00.</description>
+      <title>The 70&apos;s Show with Marky Mark</title>
+      <description>The 70&apos;s Show with Marky Mark from 14:00 to 16:00.</description>
       <pubDate>Sun, 29 Nov 2026 14:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-60-s-Sunday-2026-11-29T14-00-00-000Z</guid>
+      <guid isPermaLink="false">smr-The-70-s-Show-2026-11-29T14-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
@@ -157,22 +157,6 @@
       <description>Alisons Allsorts with Alison from 16:00 to 18:00.</description>
       <pubDate>Sun, 29 Nov 2026 16:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-Alisons-Allsorts-2026-11-29T16-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>The Insanitarium with Jason X</title>
-      <description>The Insanitarium with Jason X from 18:00 to 20:00.</description>
-      <pubDate>Sun, 29 Nov 2026 18:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-The-Insanitarium-2026-11-29T18-00-00-000Z</guid>
-      <category>Radio Show</category>
-    </item>
-
-    <item>
-      <title>Vapour Cockney Music with Vapour with Co Host Chris James of RNI</title>
-      <description>Vapour Cockney Music with Vapour with Co Host Chris James of RNI from 20:00 to 22:00.</description>
-      <pubDate>Sun, 29 Nov 2026 20:00:00 GMT</pubDate>
-      <guid isPermaLink="false">smr-Vapour-Cockney-Music-2026-11-29T20-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
@@ -325,6 +309,22 @@
       <description>The Morning Mix with DJ Rick Culley from 10:00 to 12:00.</description>
       <pubDate>Wed, 02 Dec 2026 10:00:00 GMT</pubDate>
       <guid isPermaLink="false">smr-The-Morning-Mix-2026-12-02T10-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>SMR Music Mix with Marv</title>
+      <description>SMR Music Mix with Marv from 12:00 to 15:00.</description>
+      <pubDate>Wed, 02 Dec 2026 12:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-SMR-Music-Mix-2026-12-02T12-00-00-000Z</guid>
+      <category>Radio Show</category>
+    </item>
+
+    <item>
+      <title>Afternoon Memories with SMR DJ</title>
+      <description>Afternoon Memories with SMR DJ from 15:00 to 16:00.</description>
+      <pubDate>Wed, 02 Dec 2026 15:00:00 GMT</pubDate>
+      <guid isPermaLink="false">smr-Afternoon-Memories-2026-12-02T15-00-00-000Z</guid>
       <category>Radio Show</category>
     </item>
 
